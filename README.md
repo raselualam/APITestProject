@@ -27,6 +27,14 @@ We will be evaluating
 
 #### Test Cases
 
- 1.  
-
-# SQEDemonstrationChallengeAPIProject
+ 1.  Order Get 
+   i. Scenario to get list of orders and validate response and statuscode.
+   ii. Scenario to get single order using correct order id and validate response and statuscode.
+   iii. Scenario to get single order using incorrect order id and validate response and statuscode.
+ 
+ 2.  Order Post
+   i. Scenario with correct request body which should return Success and validate response and statuscode.
+   ii. Scenario with incorrect number of toppings in request body and validate response and statuscode.
+   iii. scenario with invalid pizza in request body and validate response and statuscode.
+   iv. scenario with pizza not specified in request body and validate response and statuscode.
+   v. scenario with toppings not specified in request body and validate response and statuscode.
